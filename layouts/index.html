@@ -1,9 +1,60 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <title>{{ .Title }}</title>
-    </head>
-    <body></body>
-</html>
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<main>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Manexim</h1>
+            <p class="lead">Smart apps that support you every day</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            <div class="card h-100">
+                <img width="80" height="80" class="card-img-top center" src="/img/com.github.manexim.home.svg">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Home
+                        <a href="https://github.com/manexim/home/releases/">
+                            <img src="https://img.shields.io/github/release/manexim/home.svg">
+                        </a>
+                    </h3>
+                    <h5 class="card-title">Control your smart home gadgets</h5>
+                    <p class="card-text">A smart home application to control your gadgets.</p>
+                    <p class="card-text">Supported devices:</p>
+                    <ul>
+                        <li>LIFX</li>
+                        <li>Philips Hue</li>
+                    </ul>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="https://appcenter.elementary.io/com.github.manexim.home">
+                        <img src="https://appcenter.elementary.io/badge.svg">
+                    </a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-6">
+            <div class="card h-100">
+                <img width="80" height="80" class="card-img-top center" src="/img/com.github.manexim.news.svg">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        News Feed
+                        <a href="https://github.com/manexim/news/releases/">
+                            <img src="https://img.shields.io/github/release/manexim/news.svg">
+                        </a>
+                    </h3>
+                    <h5 class="card-title">The best news sources, all in one place</h5>
+                    <p class="card-text">Read the latest headlines and get coverage of current events. Read engaging stories on the topics that interest you.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="https://appcenter.elementary.io/com.github.manexim.news">
+                        <img src="https://appcenter.elementary.io/badge.svg">
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</main>
+{{ partial "footer.html" . }}
