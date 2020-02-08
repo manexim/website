@@ -1,0 +1,10 @@
+{
+    "html.format.enable": false,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+    "[markdown]": {
+        "editor.formatOnSave": false
+    }
+}
