@@ -1,7 +1,8 @@
 $brand-color-light: #4caf50;
 $brand-color-dark: #2e7d32;
+$brand-color-primary: #802392;
 
 .jumbotron {
-    background: $brand-color-light !important;
+    background: $brand-color-primary !important;
     color: #fafafa;
 }
